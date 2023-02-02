@@ -1,0 +1,100 @@
+@media(max-width: 991px){
+    .container {
+        max-width: 732px;
+        .header {
+            justify-content: space-around;
+        }
+    }
+    .advantages{
+        &__icons{
+            max-width: 732px;
+            &__icon{
+                max-width: 200px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .container{
+        max-width: 575px;
+    }
+    .promo{
+        .header{
+            justify-content: space-around;
+            &__official {
+                display: none;
+            }
+            
+        }
+        &__wrapper {
+            align-items:center;
+
+        }
+    }
+    .advantages{
+        &__icons{
+            max-width: 575px;
+            flex-direction: column;
+            align-items:center;
+            
+        }
+        &__icon{
+            max-width: 200px;
+            margin-top: 30px;
+            img{
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px){
+    .container{
+        max-width: 320px;
+        .header {
+            a{        
+                img {
+                    width: 80%;
+                }   
+            }
+            &__contacts {
+                font-size: 14px;
+                .button {
+                    width: 128px;
+                    height: 25px;
+                }
+            }
+        }
+       .promo{
+        &__header{
+            text-align: center;
+        }
+        &__subheader{
+            text-align: center;
+        }
+        &__link{
+            text-align: center;
+        }
+        &__icons {
+            max-width: 320px;
+        }
+       }
+    }
+    .advantages{
+        &__icons{
+            max-width: 320px;
+            &__icon{
+                max-width: 200px;
+            }
+        }
+    }
+    .header{
+        &__contacts{
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+
+}
