@@ -7,10 +7,12 @@
     <title>RunSmart</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <div class="promo">
+    <section class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -54,9 +56,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="advantages">
+    <section class="advantages">
         <div class="container">
             <h1 class="advantages__header">НАШИ ПРЕИМУЩЕСТВА</h1>
 
@@ -78,9 +80,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="consultation">
+    <section class="consultation">
         <div class="container">
             <h2 class="title">Получите бесплатную консультацию <br> по подбору пульсометра </h2>
 
@@ -93,6 +95,28 @@
                 <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
             </form>
         </div>
-    </div>
+    </section>
+
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div><img src="img/slider/slide1.png" alt="slider1"></div>
+                <div><img src="img/slider/slide2.png" alt="slide2"></div>
+                <div><img src="img/slider/slide3.png" alt="slide3"></div>
+              </div>
+              <button class="carousel__inner-prev"><img src="icons/left.svg" alt=""></button>
+              <button class="carousel__inner-next"><img src="icons/right.svg" alt=""></button>
+              <div id="dots">
+                <button ></button>
+                <button ></button>
+                <button ></button>
+              </div>
+              <button class="autoplay"></button>
+        </div>
+
+    </section>
+ 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>   
+<script src="js/script.js"></script>
 </body>
 </html>

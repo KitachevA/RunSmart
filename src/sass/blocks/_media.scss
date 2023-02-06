@@ -1,9 +1,39 @@
+@media (max-width: 1024px){
+    .carousel{
+        .carousel__inner-prev, .carousel__inner-next {
+            display: none;
+            
+        }
+        
+    }
+    #dots {
+        display: flex;
+        justify-content: center;
+        button {
+            margin: 0 5px;
+        }
+        
+    }
+
+    // .tns-outer{
+    //     [data-action=stop] {
+    //         display: none;
+    //     }
+    // }
+}
+
 @media(max-width: 991px){
     .container {
         max-width: 732px;
         .header {
             justify-content: space-around;
         }
+        .carousel__inner{
+            img{
+                width: 350px;
+            }
+        }
+        
     }
     .advantages{
         &__icons{
@@ -44,6 +74,13 @@
             margin-top: 30px;
             img{
                 margin-bottom: 10px;
+            }
+        }
+    }
+    .container {
+        .carousel__inner{
+            img{
+                width: 350px;
             }
         }
     }

@@ -1,0 +1,67 @@
+.carousel {
+    padding: 81px 0;
+    position: relative;
+    &__inner {
+        width: 750px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .carousel__inner-prev {
+        position: absolute;
+        background: white;
+        border: none;
+        top: 50%;
+        left: -60px;
+        transform: translateY(-50%);
+        img {
+            width: 31px;
+            height: 50px;
+        }
+    }
+    
+    .carousel__inner-next {
+        position: absolute;
+        background: white;
+        border: none;
+        top: 50%;
+        right: -60px;
+        transform: translateY(-50%);
+        img {
+            width: 31px;
+            height: 50px;
+        }
+    }
+
+    .tns-item{
+        img {
+            display: block;
+            margin: 0 auto; 
+        }
+    }
+
+    .tns-nav{
+        button{
+            margin: 0 5px;
+            width: 20px;
+            height: 10px;
+
+        }
+        &-active{
+            background-color: red;
+        }
+    }
+
+    .autoplay {
+        position: absolute;
+        left: 30%;
+        bottom: -11px;
+        border: none;
+        background-color: rgba(0,0,0,0);
+        .fa-play{
+            color: red;
+        }
+        .fa-pause {
+            color: black;
+        }
+    }
+}
