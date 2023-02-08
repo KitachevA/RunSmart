@@ -43,6 +43,11 @@
             }
         }
     }
+    .catalog{
+        &__content{
+            justify-content: space-evenly;
+        }
+    }
 }
 
 @media (max-width: 767px){
@@ -80,8 +85,22 @@
     .container {
         .carousel__inner{
             img{
-                width: 350px;
+                width: 320px;
             }
+        }
+    }
+    .catalog {
+        &__tab {
+            width: 150px;
+            line-height: 53px;
+            font-size: 11px;
+
+        }
+        &-item{
+            width: 220px;
+        }
+        &__content{
+            justify-content: space-evenly;
         }
     }
 }
@@ -130,6 +149,45 @@
         &__contacts{
             a {
                 font-size: 14px;
+            }
+        }
+    }
+    .consultation{
+        .title {
+            font-size: 32px;
+            text-align: center;
+        }
+        &__descr {
+            font-size: 15px;
+        }
+    }
+    .catalog {
+        &__tab {
+            width: 81px;
+            line-height: 49px;
+            font-size: 9px;
+
+        }
+        &__content {
+            justify-content: center;
+        }
+    }
+    .feedback{
+        &__item {
+            flex-direction: column;
+            img{
+                display: block;
+                margin: 0 auto;
+            }
+            &-descr {
+                margin-left: 0;
+                margin-top: 30px;
+                &_name {
+                    text-align: center;
+                }
+                &_marathon {
+                    text-align: center;
+                }
             }
         }
     }
